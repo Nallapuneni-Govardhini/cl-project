@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_events
+    description: "Cleaned events data from thelook_ecommerce"
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: "Completed orders used as conversions"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: user_id
+        tests:
+          - not_null

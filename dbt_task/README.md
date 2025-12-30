@@ -1,15 +1,9 @@
 Welcome to your new dbt project!
 
-### Using the starter project
+### Process followed in this project.
 
-Try running the following commands:
-- dbt run
-- dbt test
+1. Created staging folder and placed users,orders,events sql files and run command dbt run --select staging.
+2. Created transformations folder and placed first_click, last_click sql files and run command dbt run --select clicks_transformations.
+3. In both the folders schema.yml files are created and run dbt test to null tests.
+4. 
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices

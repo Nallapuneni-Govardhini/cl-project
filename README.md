@@ -5,5 +5,5 @@
 3. Activate virtual environment (venv\Scripts\activate)
 4. In cmd navigate to project folder and run dbt init for project creation.
 5. Navigate dbt folder and run dbt debug just to test connection.
-5. If faced any authentication issues then we can fix with this default test project itself.
-6. 
+6. If faced any authentication issues then we can fix with this default test project itself.
+7. DBT process is mentioned inside the README.md file inside dbt_task.
