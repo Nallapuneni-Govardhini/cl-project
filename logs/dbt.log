@@ -1,0 +1,90 @@
+[0m19:43:34.899000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A11FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B969EBD350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A18B6D0>]}
+
+
+============================== 19:43:34.915663 | 1563d6e1-6b69-4659-9d82-08745a21efea ==============================
+[0m19:43:34.915663 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:43:34.915663 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\venug\\.dbt', 'invocation_command': 'dbt init', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:43:48.646467 [debug] [MainThread]: Starter project path: C:\Users\venug\venv\Lib\site-packages\dbt\include\starter_project
+[0m19:43:48.813681 [info ] [MainThread]: 
+Your new dbt project "dbt_task" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:43:48.813681 [info ] [MainThread]: Setting up your profile.
+[0m19:49:44.328734 [info ] [MainThread]: Profile dbt_task written to C:\Users\venug\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:49:44.328734 [debug] [MainThread]: Command `dbt init` succeeded at 19:49:44.328734 after 369.64 seconds
+[0m19:49:44.328734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A12CF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A124710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9636AC710>]}
+[0m19:49:44.328734 [debug] [MainThread]: Flushing usage events
+[0m19:49:47.433867 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:50:40.383376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C156241950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1555EB150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C156241110>]}
+
+
+============================== 19:50:40.393223 | ab923a0a-2323-4953-a6ee-f933c636a20c ==============================
+[0m19:50:40.393223 [info ] [MainThread]: Running with dbt=1.11.2
+[0m19:50:40.395185 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\venug\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:50:40.453146 [info ] [MainThread]: dbt version: 1.11.2
+[0m19:50:40.455402 [info ] [MainThread]: python version: 3.11.9
+[0m19:50:40.455402 [info ] [MainThread]: python path: C:\Users\venug\venv\Scripts\python.exe
+[0m19:50:40.458224 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:51:04.847112 [info ] [MainThread]: Using profiles dir at C:\Users\venug\.dbt
+[0m19:51:04.851353 [info ] [MainThread]: Using profiles.yml file at C:\Users\venug\.dbt\profiles.yml
+[0m19:51:04.853359 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\venug\cl_project\dbt_project.yml
+[0m19:51:04.855375 [info ] [MainThread]: adapter type: bigquery
+[0m19:51:04.855375 [info ] [MainThread]: adapter version: 1.11.0
+[0m19:51:04.859629 [info ] [MainThread]: Configuration:
+[0m19:51:04.863650 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:51:04.863650 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:51:04.863650 [info ] [MainThread]: Required dependencies:
+[0m19:51:04.869038 [debug] [MainThread]: Executing "git --help"
+[0m19:51:05.001610 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:51:05.004347 [debug] [MainThread]: STDERR: "b''"
+[0m19:51:05.005972 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:51:05.010085 [info ] [MainThread]: Connection:
+[0m19:51:05.012947 [info ] [MainThread]:   method: service-account
+[0m19:51:05.012947 [info ] [MainThread]:   database: cl-project-482713
+[0m19:51:05.012947 [info ] [MainThread]:   execution_project: cl-project-482713
+[0m19:51:05.018494 [info ] [MainThread]:   schema: cl_dbt
+[0m19:51:05.020016 [info ] [MainThread]:   location: US
+[0m19:51:05.022719 [info ] [MainThread]:   priority: interactive
+[0m19:51:05.024725 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m19:51:05.026777 [info ] [MainThread]:   impersonate_service_account: None
+[0m19:51:05.026777 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m19:51:05.026777 [info ] [MainThread]:   job_retries: 1
+[0m19:51:05.032688 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m19:51:05.034966 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m19:51:05.037736 [info ] [MainThread]:   timeout_seconds: 300
+[0m19:51:05.039826 [info ] [MainThread]:   client_id: None
+[0m19:51:05.043315 [info ] [MainThread]:   token_uri: None
+[0m19:51:05.047463 [info ] [MainThread]:   compute_region: None
+[0m19:51:05.047463 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m19:51:05.051326 [info ] [MainThread]:   gcs_bucket: None
+[0m19:51:05.054434 [info ] [MainThread]:   dataproc_batch: None
+[0m19:51:05.060846 [info ] [MainThread]: Registered adapter: bigquery=1.11.0
+[0m19:51:07.588320 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m19:51:07.588320 [debug] [MainThread]: On debug: select 1 as id
+[0m19:51:07.588320 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:51:12.360499 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=cl-project-482713&j=bq:US:e493be3b-4216-4a7b-a810-032eed8c62ab&page=queryresults
+[0m19:51:12.865307 [debug] [MainThread]: SQL status: OK in 0.504 seconds
+[0m19:51:19.496066 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:51:19.499499 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:51:19.501312 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\venug\cl_project\dbt_project.yml> not found
+
+[0m19:51:19.504132 [debug] [MainThread]: Command `dbt debug` failed at 19:51:19.504132 after 39.31 seconds
+[0m19:51:19.504132 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:51:19.504132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1564A69D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1564A5150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C175B44B50>]}
+[0m19:51:19.512232 [debug] [MainThread]: Flushing usage events
+[0m19:51:22.779697 [debug] [MainThread]: An error was encountered while trying to flush usage events
